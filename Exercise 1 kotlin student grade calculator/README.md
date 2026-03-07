@@ -13,7 +13,7 @@ A Dart command-line application that reads student data from an Excel file, calc
 ## Prerequisites
 
 - [Dart SDK](https://dart.dev/get-dart) installed
-- Python 3 installed with pandas library:
+- Python  installed with pandas library:
   ```bash
   pip install pandas openpyxl
   ```
