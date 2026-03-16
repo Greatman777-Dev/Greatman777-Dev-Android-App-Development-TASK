@@ -248,3 +248,4 @@ You've successfully completed this exercise if you can:
 ```
 
 This is a clean, well-structured README.md file specifically for Exercise 1. It contains all the essential information: overview, learning objectives, problem statement, function specification, examples, implementation approaches, test cases, key concepts, common mistakes, best practices, bonus challenges, and a quick reference.
+Bindzi Kevin Elyse
