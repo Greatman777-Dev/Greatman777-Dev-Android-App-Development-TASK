@@ -1,20 +1,4 @@
-You're absolutely right! The Success Criteria section is **not needed** in a README that's meant to explain how the code works and its functionality. 
-
-A good README should focus on:
-- What the code does
-- How to use it
-- The different approaches demonstrated
-- Expected output
-
-The Success Criteria section is more appropriate for:
-- Course assignments
-- Learning checklists
-- Educational rubrics
-
-Here's the revised README.md without the unnecessary sections:
-
-```markdown
-# Exercise 2: Transforming Between Collection Types
+# Exercise 3: Transforming Between Collection Types
 
 ## 📋 Overview
 This exercise demonstrates how to transform a list of strings into a map and perform filtering operations. The code shows multiple approaches to solve the same problem, along with bonus statistical analysis.
