@@ -1,7 +1,7 @@
-# Exercise 1 README.md
+# Exercise 2 README.md
 
 ```markdown
-# Exercise 1: Custom Higher-Order Function - processList
+# Exercise 2: Custom Higher-Order Function - processList
 
 ## 📋 Overview
 Build a higher-order function that filters a list of integers based on a custom predicate, demonstrating functional programming concepts in Dart.
