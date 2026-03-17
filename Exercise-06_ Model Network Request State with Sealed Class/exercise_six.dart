@@ -2,10 +2,10 @@
 
 // 1. Définition de la classe parente avec un constructeur const
 sealed class NetworkState {
-  const NetworkState(); 
+  const NetworkState();
 }
 
-// 2. Les classes enfants peuvent maintenant être const
+// 2. Les classes enfants
 class Loading extends NetworkState {
   const Loading();
 
@@ -38,13 +38,13 @@ void main() {
   ];
 
   print('\n--- Handling Network States ---');
-  
+
   for (var state in states) {
     handleStateWithSwitch(state);
   }
 }
 
-// 3. Utilisation du Switch (obligatoire avec une classe sealed)
+// 3. Utilisation du Switch
 void handleStateWithSwitch(NetworkState state) {
   switch (state) {
     case Loading():
@@ -53,8 +53,12 @@ void handleStateWithSwitch(NetworkState state) {
     case Success(data: var message):
       print('✅ Félicitations : $message');
       break;
-    case Failure(error: var msg d'erreur):
-      print('❌ Alerte : $msg d'erreur');
+    case Failure(
+      error: var msgErreur,
+    ): // Correction ici : pas d'espace ni d'apostrophe dans le nom de variable
+      print(
+        '❌ Alerte : $msgErreur',
+      ); // Correction ici : 'print' au lieu de 'int'
       break;
   }
 }
