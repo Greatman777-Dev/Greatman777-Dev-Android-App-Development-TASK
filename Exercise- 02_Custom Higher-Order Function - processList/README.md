@@ -1,6 +1,4 @@
 # Exercise 2 README.md
-
-```markdown
 # Exercise 2: Custom Higher-Order Function - processList
 
 ## 📋 Overview

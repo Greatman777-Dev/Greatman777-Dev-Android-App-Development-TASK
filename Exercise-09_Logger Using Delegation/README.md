@@ -1,7 +1,4 @@
-# Exercise 9 README.md
-
-```markdown
-# Exercise 9: Logger Using Delegation
+Exercise 9: Logger Using Delegation
 
 ## 📋 Overview
 This exercise demonstrates the delegation pattern by creating a logging system where an Application class delegates logging responsibilities to different logger implementations.
